@@ -16,7 +16,7 @@ h1
 header
 {
     border-bottom: #87A24E 0.5em double;
-    
+
 }
 header .navbar 
 {
@@ -42,4 +42,50 @@ header .navbar
     text-decoration: none;    
     color: #87A24E;
 
+}
+main 
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 2em 4em;
+}
+.main-box
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 2em auto;
+}
+.main-box__pic
+{
+    margin-right: 1em;
+}
+.main-box__pic img 
+{
+    width: 35em;
+    border-radius: 20%;
+    box-shadow: #87A24E 0em 0.5em 0.5em;
+    
+    
+
+}
+.main-box__text
+{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 1em;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.main-box button 
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    background-color: #87A24E;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: red outset 0.5em;
 }
