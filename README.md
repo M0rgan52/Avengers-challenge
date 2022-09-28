@@ -1,4 +1,4 @@
-# Avengers-challenge
+# Avengers simple HTML challenge
 
 Réalisation du "Avengers Simple HTML" challenge propose par Sara B. sur codier
 
