@@ -1,0 +1,45 @@
+body 
+{
+    font-family: 'Rubik Dirt', cursive;
+    background: black;
+    color: #87A24E;
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    text-transform: uppercase;
+}
+header
+{
+    border-bottom: #87A24E 0.5em double;
+    
+}
+header .navbar 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: auto 1em;
+}
+.navbar__list 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.navbar__list > li 
+{
+    padding: 0.5em 1em 0 1em;
+    list-style: none;
+}
+.navbar__list--link 
+{
+    text-decoration: none;    
+    color: #87A24E;
+
+}
