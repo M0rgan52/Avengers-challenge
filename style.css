@@ -89,3 +89,33 @@ h2{
     border-radius: 2em;
     border: red outset 0.5em;
 }
+footer
+{
+    border-top: #87A24E 0.5em double;
+
+}
+footer .footer 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 1em 1em;
+}
+.footer__list 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.footer__list  > li 
+{
+    padding: 0.5em 1em 0 1em;
+    list-style: none;
+}
+.footer__list--link 
+{
+    text-decoration: none;    
+    color: #87A24E;
+
+}
