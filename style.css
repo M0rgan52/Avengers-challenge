@@ -8,7 +8,6 @@ body
     padding: 0;
     margin: 0;
 }
-
 h1
 {
     text-transform: uppercase;
@@ -74,9 +73,6 @@ main
     width: 35em;
     border-radius: 20%;
     box-shadow: #87A24E 0em 0.5em 0.5em;
-    
-    
-
 }
 .main-box__text
 {
@@ -104,9 +100,17 @@ h2{
     transform: scale(1.3);   
     box-shadow: red 0 0 6em;    
 }
+.main-box button a 
+{
+ 
+    text-decoration: none;    
+    color: black;
+}
 footer
 {
     border-top: #87A24E 0.5em double;
+    display: flex;
+    justify-content: center ;
 
 }
 footer .footer 
@@ -142,4 +146,19 @@ footer .footer
 {
     transform: scale(1.15);   
     text-shadow: #87A24E 0.1em 1em 0.2em;    
+}
+@media screen and (max-width: 1230px) {
+
+    .main-box
+    {
+        flex-flow: column;
+        align-items: center;
+    }
+    .main-box__pic img 
+{
+    width: 100%;
+
+
+}
+    
 }
